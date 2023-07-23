@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
     <title>Realco</title>
@@ -13,20 +14,46 @@
 
 <body>
     <header class="header">
-        <div class="header__container">
+        <div class="header__container container">
             <div class="header__body">
-                <a href="" class="header__logo"></a>
-                <nav class="header__nal">
-                    <ul class="header__list">
-                        <li class="header__item"><a href="" class="header__link"></a></li>
-
+                <a href="" class="header__logo">
+                    <svg class="logo">
+                        <use href="./icon/sprite.svg#icon-logo"></use>
+                    </svg>
+                </a>
+                <div class="header__hidde-icon">
+                    <svg class="arrow-icon">
+                        <use href="./icon/sprite.svg#icon-arrow-bottom"></use>
+                    </svg>
+                    <svg class="search-icon">
+                        <use href="./icon/sprite.svg#icon-search"></use>
+                    </svg>
+                </div>
+                <div class="header__wrapp">
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="" class="header__link">Home</a></li>
+                            <li class="header__item"><a href="" class="header__link properties">Properties</a></li>
+                            <li class="header__item"><a href="" class="header__link">About</a></li>
+                            <li class="header__item"><a href="" class="header__link">Contact</a></li>
+                            <li class="header__item"><a href="" class="header__link search">Search</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="header__list-button">
+                        <li class="header__item-button"><button type="button"
+                                class="header__button-white button-white">Cart</button></li>
+                        <li class="header__item-button"><button type="button"
+                                class="header__button-orange button-orange">Find a property</button></li>
                     </ul>
-                </nav>
-                <div class="burger__menu">
-                    <div class="burger__container">
-                        <div class="burger__body">
+                </div>
+                <svg class="header__burger-icon">
+                    <use href="./icon/sprite.svg#icon-burger"></use>
+                </svg>
+            </div>
+            <div class="burger__menu">
+                <div class="burger__container">
+                    <div class="burger__body">
 
-                        </div>
                     </div>
                 </div>
             </div>
@@ -46,7 +73,7 @@
     <footer class="footer">
         <div class="footer__container">
             <div class="footer__body">
-                
+
             </div>
         </div>
     </footer>
@@ -55,7 +82,7 @@
         <div class="modal__window">
             <div class="modal__window-container">
                 <div class="modal__window-body">
-                    
+
                 </div>
             </div>
         </div>
