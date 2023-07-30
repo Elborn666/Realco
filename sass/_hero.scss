@@ -14,32 +14,32 @@
     max-width: 560px;
     row-gap: 20px;
     margin-right: 80px;
-    // &::after {
-    //     position: absolute;
-    //     bottom: 0px;
-    //     right: -80px;
-    //     content: "";
-    //     display: block;
-    //     background-image: url('../icon/corner-bottom.svg');
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     background-size: contain;
-    //     width: 135px;
-    //     height: 135px;
-    // }
-    // &::before {
-    //     position: absolute;
-    //     top: 0px;
-    //     left: -80px;
-    //     content: "";
-    //     display: block;
-    //     background-image: url('../icon/corner-top.svg');
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     background-size: contain;
-    //     width: 135px;
-    //     height: 135px;
-    // }
+    &::after {
+        position: absolute;
+        bottom: -124px;
+        right: -80px;
+        content: "";
+        display: block;
+        background-image: url('../icon/corner-bottom.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 135px;
+        height: 135px;
+    }
+    &::before {
+        position: absolute;
+        top: -131px;
+        left: -80px;
+        content: "";
+        display: block;
+        background-image: url('../icon/corner-top.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 135px;
+        height: 135px;
+    }
 }
 .hero__label {
     width: 162px;
@@ -86,6 +86,16 @@
     max-width: 100%;
     height: 100%;
     object-fit: contain;
+}
+@media screen and (max-width: 1280px) {
+    .hero__content {
+        &::after {
+            display: none;
+        }
+        &::before {
+            display: none;
+        }
+    }
 }
 @media screen and (max-width: 991.98px) {
     .hero__content {
