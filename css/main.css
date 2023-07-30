@@ -89,7 +89,9 @@ a {
 }
 
 .header__logo {
+  display: flex;
   margin-right: auto;
+  align-items: center;
 }
 
 .logo {
@@ -237,6 +239,11 @@ a {
   .header__hidde-icon {
     display: none;
   }
+  .header__button-white {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 379.98px) {
   .header__list-button {
     display: none;
   }
