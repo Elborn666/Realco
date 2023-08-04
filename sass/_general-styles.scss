@@ -45,3 +45,19 @@ body {
     border-radius: 32px;
     background: var(--silver-color);
 }
+.properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    &::after {
+        content: "";
+        display: block;
+        background-image: url('../icon/arrow-bottom.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 20px;
+        height: 10px;
+    }
+}
