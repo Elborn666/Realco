@@ -1,5 +1,6 @@
 .forward__container {
     padding-top: 125px;
+    padding-bottom: 125px;
 }
 .forward__body {
     display: flex;
@@ -86,6 +87,7 @@
 @media screen and (max-width: 767.98px) {
     .forward__container {
         padding-top: 30px;
+        padding-bottom: 30px;
     }
     .forward__label {
         margin-bottom: 15px;
