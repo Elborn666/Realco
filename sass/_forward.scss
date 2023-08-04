@@ -1,0 +1,117 @@
+.forward__container {
+    padding-top: 125px;
+}
+.forward__body {
+    display: flex;
+    align-items: center;
+}
+.forward__content {
+    max-width: 600px;
+    margin-left: 80px;
+}
+.forward__label {
+    max-width: 127px;
+    margin-bottom: 25px;
+}
+.forward__title {
+    margin-bottom: 29px;
+}
+.forward__subtitle {
+    margin-bottom: 29px;
+}
+.forward__list {
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 37px;
+}
+.forward__item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 288px;
+}
+.forward__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: var(--icon-border);
+
+    margin-bottom: 16px;
+}
+.forward__icon {
+    width: 32px;
+    height: 48px;
+}
+.forward__item-title {
+    margin-bottom: 18px;
+}
+.forward__button-wrapper {
+    display: flex;
+    align-items: center;
+
+    column-gap: 24px;
+}
+.forward__link {
+    color: var(--title-color);
+    font-size: 16px;
+}
+.properties {
+    &::after {
+        width: 10px;
+        height: 7px;
+        transform: rotate(-90deg);
+    }
+}
+.forward__img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+@media screen and (max-width: 1099.98px) {
+    .forward__body {
+        flex-direction: column-reverse;
+    }
+    .forward__content {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    .forward__title {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .forward__container {
+        padding-top: 30px;
+    }
+    .forward__label {
+        margin-bottom: 15px;
+    }
+    .forward__title {
+        margin-bottom: 15px;
+    }
+    .forward__subtitle {
+        margin-bottom: 20px;
+    }
+    .forward__list {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 15px;
+        margin-bottom: 20px;
+    }
+    .forward__item {
+        align-items: center;
+    }
+}
+@media screen and (max-width: 479.98px) {
+    .forward__button-wrapper {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .forward__button {
+        min-width: 100%;
+    }
+}
