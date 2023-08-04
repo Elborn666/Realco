@@ -1,7 +1,3 @@
-.hero {
-}
-.hero__container {
-}
 .hero__body {
     display: flex;
     justify-content: center;
@@ -114,10 +110,6 @@
     .hero__button {
         min-width: 310px;
     }
-  
-}
-@media screen and (max-width: 859.98px) {
-   
 }
 @media screen and (max-width: 767.98px) {
     .hero__body {
@@ -135,10 +127,4 @@
     .hero__button {
         min-width: 100%;
     }
-    
-}
-@media screen and (max-width: 479.98px) {
-}
-@media screen and (max-width: 379.98px) {
-   
 }
