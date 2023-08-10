@@ -1,0 +1,132 @@
+.post {
+    background-color: #F5F5F2;;
+}
+.post__container {
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.post__label {
+    width: 53px;
+    margin-bottom: 21px;
+}
+.post__title {
+    margin-bottom: 29px;
+}
+.post__wrapper-subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.post__subtitle {
+    max-width: 710px;
+}
+.post__button {
+    padding: 13px 25px;
+}
+.post__list {
+    display: flex;
+    column-gap: 34px;
+    row-gap: 15px;
+}
+.post__item {
+    display: flex;
+    flex-direction: column;
+    width: 405px;
+    border-radius: 16px;
+    border: 1px solid var(--silver-color);
+    background: var(--white-color);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.post__img {
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.post__wrapper-date {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-bottom: 16px;
+}
+.post__item-label {
+    color: var(--title-color);
+    font-size: 14px;
+
+    padding: 4px 8px;
+    border-radius: 32px;
+    background-color: var(--icon-border);
+}
+.post__date {
+    font-size: 14px;
+}
+.post__thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    padding: 24px;
+}
+.post__item-title {
+    margin-bottom: 9px;
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.post__item-subtitle {
+    margin-bottom: 24px;
+    flex: 1 1 auto;
+}
+.post__button {
+    min-width: 108px;
+}
+@media screen and (max-width: 991.98px) {
+    .post__title {
+        font-size: 30px;
+    }
+    .post__button {
+        margin-left: 20px;
+    }
+    .post__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .post__container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    } 
+    .post__label {
+        margin-bottom: 15px;
+    }
+    .post__title {
+        margin-bottom: 20px;
+    }
+    .post__wrapper-subtitle {
+        margin-bottom: 20px;
+    }
+    .post__thumb {
+        padding: 15px;
+    }
+    .post__wrapper-date {
+        margin-bottom: 10px;
+    }
+    .post__item-subtitle {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 549.98px) {
+    
+}
+@media screen and (max-width: 479.98px) {
+    .post__wrapper-subtitle {
+        flex-direction: column;
+    }
+    .post__button {
+        margin-left: 0px;
+        margin-top: 15px;
+        min-width: 100%;
+    }
+}
