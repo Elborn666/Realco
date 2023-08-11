@@ -1,0 +1,32 @@
+.footer {
+    background-color: #F5F5F2;
+}
+.footer__container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__list-text,
+.footer__social-list {
+    display: flex;
+    column-gap: 12px;
+}
+.footer__text {
+    font-size: 14px;
+}
+.footer-icon {
+    width: 24px;
+    height: 24px;
+}
+@media screen and (max-width: 479.98px) {
+    .footer__body {
+        flex-wrap: wrap;
+    }
+    .footer__list-text {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+}
