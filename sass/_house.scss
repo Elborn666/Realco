@@ -25,9 +25,18 @@
 
     column-gap: 24px;
 }
+.house__button {
+    transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        color: var(--button-color);
+    }
+}
 .house__link {
     color: var(--title-color);
     font-size: 16px;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 .properties {
     &::after {
