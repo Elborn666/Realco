@@ -74,10 +74,15 @@
         transform: rotate(-90deg);
     }
 }
+.forward__img-wrapper {
+    overflow: hidden;
+    border-radius: 16px;
+}
 .forward__img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    animation: animations-img 5s linear 1s infinite alternate-reverse;
 }
 @media screen and (max-width: 1099.98px) {
     .forward__body {
