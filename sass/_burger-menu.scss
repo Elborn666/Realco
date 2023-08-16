@@ -20,15 +20,11 @@
     align-items: center;
     row-gap: 20px;
 }
-.burger__nav {
-}
 .burger__list {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
-}
-.burger__item {
 }
 .burger__link {
     font-size: 20px;
@@ -43,10 +39,6 @@
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
-}
-.burger__item-button {
-}
-.burger__button-white {
 }
 .burger__button-orange {
     padding: 9px 21px;

@@ -694,7 +694,7 @@
                         <p class="contact__subtitle">Join our newsletter to stay up to date on features and releases.
                         </p>
                         <form class="contact__form">
-                            <input type="email" class="contact__input" placeholder="Enter your email">
+                            <input type="email" required pattern="^([^ ]+@[^ ]+\.[a-z]{2,6}|)$" class="contact__input" placeholder="Enter your email">
                             <button type="submit" class="contact__button button-orange">Subscribe</button>
                         </form>
                         <div class="contact__wrapper">
@@ -756,13 +756,16 @@
         <div class="modal__window">
             <div class="modal__window-container">
                 <div class="modal__window-body">
-
+                    <h2 class="modal__title">Subscribe success!</h2>
+                    <p class="modal__text">You have successfully subscribed.</p>
+                    <button class="modal__button-close">Ok</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="./js/burger-menu.js" type="module"></script>
+    <script type="module" src="./js/subscribe.js"></script>
 </body>
 
 </html>

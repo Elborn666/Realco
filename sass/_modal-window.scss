@@ -29,3 +29,29 @@
     text-align: center;
     border-radius: 10px;
 }
+.modal__title {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: var(--title-color);
+}
+.modal__text {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.modal__button-close {
+    color: var(--white-color);
+    border-radius: 5px;
+    border: 1px solid var(--button-color);
+    background-color: var(--button-color);
+    padding: 9px 21px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    &:hover {
+        background-color: var(--white-color);
+        color: var(--button-color);
+    }
+}
+.is-open {
+    opacity: 1;
+    pointer-events: fill;
+}
