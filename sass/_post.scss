@@ -94,6 +94,10 @@
     }
 }
 @media screen and (max-width: 991.98px) {
+    .post__container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .post__title {
         font-size: 30px;
     }

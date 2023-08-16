@@ -379,6 +379,9 @@ a {
 }
 
 @media screen and (max-width: 1280px) {
+  .hero__content {
+    margin-top: 20px;
+  }
   .hero__content::after {
     display: none;
   }
@@ -531,6 +534,9 @@ a {
 }
 
 @media screen and (max-width: 991.98px) {
+  .work__container {
+    padding-top: 60px;
+  }
   .work__title {
     font-size: 30px;
   }
@@ -630,6 +636,9 @@ a {
 }
 
 @media screen and (max-width: 991.98px) {
+  .house__container {
+    padding-top: 60px;
+  }
   .house__content {
     margin-right: 30px;
   }
@@ -773,6 +782,10 @@ a {
   }
 }
 @media screen and (max-width: 991.98px) {
+  .forward__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .forward__title {
     font-size: 30px;
   }
@@ -1004,6 +1017,10 @@ a {
   }
 }
 @media screen and (max-width: 991.98px) {
+  .favorite__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .favorite__title {
     font-size: 30px;
   }
@@ -1127,6 +1144,9 @@ a {
   }
 }
 @media screen and (max-width: 991.98px) {
+  .location__container {
+    padding-bottom: 300px;
+  }
   .location__title {
     font-size: 30px;
   }
@@ -1216,6 +1236,12 @@ a {
   padding: 13px 25px;
 }
 
+@media screen and (max-width: 991.98px) {
+  .priority__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 @media screen and (max-width: 767.98px) {
   .priority__container {
     padding-top: 30px;
@@ -1299,6 +1325,10 @@ a {
 }
 
 @media screen and (max-width: 991.98px) {
+  .customers__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .customers__title {
     font-size: 30px;
   }
@@ -1439,6 +1469,10 @@ a {
 }
 
 @media screen and (max-width: 991.98px) {
+  .post__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .post__title {
     font-size: 30px;
   }

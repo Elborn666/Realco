@@ -91,6 +91,7 @@
 }
 @media screen and (max-width: 1280px) {
     .hero__content {
+        margin-top: 20px;
         &::after {
             display: none;
         }

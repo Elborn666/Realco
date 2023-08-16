@@ -53,6 +53,10 @@
     font-weight: 700;
 }
 @media screen and (max-width: 991.98px) {
+    .customers__container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .customers__title {
        font-size: 30px;
     }

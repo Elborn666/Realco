@@ -36,6 +36,12 @@
 .priority__button {
     padding: 13px 25px;
 }
+@media screen and (max-width: 991.98px){
+    .priority__container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
 @media screen and (max-width: 767.98px) {
     .priority__container {
         padding-top: 30px;
