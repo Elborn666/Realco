@@ -213,11 +213,22 @@ a {
   padding: 9px 21px;
 }
 
-.header__burger-icon {
+.header__burger-open {
   display: none;
   margin-left: 15px;
   width: 30px;
   height: 30px;
+}
+
+.header__burger-close {
+  display: none;
+  position: absolute;
+  top: 26px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  fill: var(--title-color);
+  background-color: var(--white-color);
 }
 
 @media screen and (max-width: 991.98px) {
@@ -271,7 +282,7 @@ a {
   .header__button-white {
     width: 50px;
   }
-  .header__burger-icon {
+  .header__burger-open {
     display: block;
   }
 }
@@ -1644,7 +1655,7 @@ a {
     margin-right: 20px;
   }
   .contact__nav-pages,
-.contact__nav-crm {
+  .contact__nav-crm {
     margin-right: 40px;
     width: 100px;
   }
@@ -1670,8 +1681,8 @@ a {
     width: 60px;
   }
   .contact__list-peges,
-.contact__list-crm,
-.contact__list-utility {
+  .contact__list-crm,
+  .contact__list-utility {
     row-gap: 8px;
   }
 }
@@ -1683,7 +1694,7 @@ a {
     margin-right: 0px;
   }
   .contact__nav-pages,
-.contact__nav-crm {
+  .contact__nav-crm {
     margin-right: 20px;
   }
   .contact__form {

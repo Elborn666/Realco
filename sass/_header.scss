@@ -76,11 +76,21 @@
 .header__button-orange {
     padding: 9px 21px;
 }
-.header__burger-icon {
+.header__burger-open {
     display: none;
     margin-left: 15px;
     width: 30px;
     height: 30px;
+}
+.header__burger-close {
+    display: none;
+    position: absolute;
+    top: 26px;
+    right: 14px;
+    width: 30px;
+    height: 30px;
+    fill: var(--title-color);
+    background-color: var(--white-color);
 }
 @media screen and (max-width: 991.98px) {
     .header__body {
@@ -133,7 +143,7 @@
     .header__button-white {
         width: 50px;
     }
-    .header__burger-icon {
+    .header__burger-open {
         display: block;
     }
 }
