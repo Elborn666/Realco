@@ -1655,7 +1655,7 @@ a {
     margin-right: 20px;
   }
   .contact__nav-pages,
-  .contact__nav-crm {
+.contact__nav-crm {
     margin-right: 40px;
     width: 100px;
   }
@@ -1681,8 +1681,8 @@ a {
     width: 60px;
   }
   .contact__list-peges,
-  .contact__list-crm,
-  .contact__list-utility {
+.contact__list-crm,
+.contact__list-utility {
     row-gap: 8px;
   }
 }
@@ -1694,7 +1694,7 @@ a {
     margin-right: 0px;
   }
   .contact__nav-pages,
-  .contact__nav-crm {
+.contact__nav-crm {
     margin-right: 20px;
   }
   .contact__form {
