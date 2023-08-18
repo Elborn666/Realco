@@ -25,4 +25,5 @@ for (let eventClose of eventsClose) {
 function onCloseModalBurger (){
     menuBurger.classList.remove('active__burger')
     body.classList.remove('hidden')
+    closeBurgerBtn.classList.remove('active__burger')
 }

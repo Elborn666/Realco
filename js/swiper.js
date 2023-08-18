@@ -3,16 +3,16 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     speed: 1500,
-    effect: "flip",
+    effect: "coverflow",
 
     autoplay: {
         delay: 2000,
         disableOnInteraction: false,
     },
-    flip: {
-      limitRotation: true,
-      slideShadows: false,
-    },
+    // flip: {
+    //   limitRotation: true,
+    //   slideShadows: false,
+    // },
   
     // Navigation arrows
     // navigation: {
