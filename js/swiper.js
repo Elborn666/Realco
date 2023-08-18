@@ -9,24 +9,4 @@ const swiper = new Swiper('.swiper', {
         delay: 2000,
         disableOnInteraction: false,
     },
-    // flip: {
-    //   limitRotation: true,
-    //   slideShadows: false,
-    // },
-  
-    // Navigation arrows
-    // navigation: {
-    //   nextEl: '.swiper-button-forward',
-    //   prevEl: '.swiper-button-back',
-    // },
-
-    // // If we need pagination
-    // pagination: {
-    //   el: '.swiper-pagination',
-    // },
-
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
   });
