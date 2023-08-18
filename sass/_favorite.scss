@@ -50,10 +50,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    margin-bottom: 80px;
 }
 .favorite__item {
-    width: 395px;
+    max-width: 395px;
     overflow: hidden;
     background-color: var(--white-color);
     border: 1px solid var(--silver-color);
@@ -155,6 +154,7 @@
     display: flex;
     justify-content: center;
     column-gap: 24px;
+    margin-top: 80px;
 }
 .favorite__button {
     transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -182,6 +182,14 @@
         font-size: 30px;
     }
 }
+@media screen and (max-width: 851.98px) {
+    .swiper {
+        display: block;
+    }
+    .favorite__list {
+        display: none;
+    }
+}
 @media screen and (max-width: 767.98px) {
     .favorite {
         &::after {
@@ -199,8 +207,10 @@
        margin-bottom: 20px;
     }
     .favorite__list {
-        margin-bottom: 20px;
         row-gap: 15px;
+    }
+    .favorite__button-wrapper {
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 479.98px) {
